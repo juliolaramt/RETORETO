@@ -108,7 +108,7 @@ public class DoctorModel implements Serializable {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", department='" + department + '\'' +
-                ", year=" + years +
+                ", year=" + year +
                 ", description='" + description + '\'' +
                 ", messages=" + messages +
                 ", specialty=" + specialty +
