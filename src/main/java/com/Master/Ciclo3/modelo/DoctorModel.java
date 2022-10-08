@@ -17,8 +17,8 @@ public class DoctorModel implements Serializable {
     private String name;
 
     private String department;
-
-    private Integer years;
+    @Column(name="years")
+    private Integer year;
     private String description;
 
     //@OneToMany(cascade = {CascadeType.PERSIST}, mappedBy = "client")
@@ -63,11 +63,11 @@ public class DoctorModel implements Serializable {
     }
 
     public Integer getYear() {
-        return years;
+        return year;
     }
 
     public void setYear(Integer year) {
-        this.years = year;
+        this.year = year;
     }
 
     public String getDescription() {
